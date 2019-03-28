@@ -223,7 +223,7 @@ ChromecastSessionManager = Class.extend(/** @lends ChromecastSessionManager.prot
  * @returns {boolean} true if the Chromecast API is available
  */
 ChromecastSessionManager.isChromecastAPIAvailable = function() {
-   return window.chrome && window.chrome.cast && window.cast;
+   return window.chrome && window.chrome.cast;
 };
 
 /**
